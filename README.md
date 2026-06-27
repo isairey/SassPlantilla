@@ -86,7 +86,7 @@ git clone https://github.com/isairey/SassPlantilla.git
 Entrar al proyecto:
 
 ```bash
-cd saas-template
+cd SassPlantilla
 ```
 
 ---
@@ -241,7 +241,9 @@ Navegadores compatibles:
 
 ---
 
-# 👨‍💻 Autor
+# 👨‍💻 Desarrollador
+
+**Isai Reyes - FullStack Developer**
 
 Proyecto desarrollado utilizando la plantilla oficial de **Nuxt UI SaaS Template**, personalizable para cualquier aplicación SaaS moderna.
 
