@@ -1,62 +1,252 @@
-# Nuxt SaaS Template
+# 🚀 Plantilla SaaS con Nuxt 3
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+Una plantilla moderna para desarrollar aplicaciones **SaaS** utilizando **Nuxt 3** y **Nuxt UI**, diseñada para acelerar el desarrollo de nuevos proyectos.
 
-Fully built SaaS application to launch your next project with a landing page, a pricing page, a documentation and a blog powered by [Nuxt UI](https://ui.nuxt.com) components.
+Incluye una interfaz profesional con página de inicio, sección de precios, documentación integrada y blog, lista para personalizar y desplegar.
 
-- [Live demo](https://saas-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
+---
 
-<a href="https://saas-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/saas-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/saas-light.png">
-    <img alt="Nuxt SaaS Template" src="https://ui.nuxt.com/assets/templates/nuxt/saas-light.png">
-  </picture>
-</a>
+# ✨ Características
 
-## Quick Start
+- 🏠 Landing Page moderna y responsiva.
+- 💰 Página de precios (Pricing).
+- 📚 Sistema de documentación integrado.
+- 📰 Blog incorporado.
+- 🎨 Componentes construidos con Nuxt UI.
+- ⚡ Alto rendimiento gracias a Nuxt 3.
+- 📱 Diseño adaptable para dispositivos móviles.
+- 🚀 Preparado para despliegue en producción.
+- 🔄 Compatible con Renovate para actualización automática de dependencias.
 
-```bash [Terminal]
+---
+
+# 🛠 Tecnologías utilizadas
+
+- Nuxt 3
+- Nuxt UI
+- Vue 3
+- TypeScript
+- Vite
+- Nitro
+- Markdown
+- PNPM / NPM
+
+---
+
+# 📁 Estructura del proyecto
+
+```
+saas-template/
+│
+├── app/
+├── components/
+├── content/
+├── layouts/
+├── pages/
+├── public/
+├── server/
+├── assets/
+├── nuxt.config.ts
+├── package.json
+└── README.md
+```
+
+---
+
+# ⚙️ Requisitos
+
+Antes de comenzar asegúrate de tener instalado:
+
+- Node.js 18 o superior
+- PNPM (recomendado) o NPM
+
+Verifica la instalación:
+
+```bash
+node -v
+pnpm -v
+```
+
+---
+
+# 🚀 Instalación
+
+## 1. Crear el proyecto
+
+```bash
 npm create nuxt@latest -- -t ui/saas
 ```
 
-## Deploy your own
+O clonar el repositorio:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=saas&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fsaas&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fsaas-dark.png&demo-url=https%3A%2F%2Fsaas-template.nuxt.dev%2F&demo-title=Nuxt%20SaaS%20Template&demo-description=A%20SaaS%20template%20with%20landing%2C%20pricing%2C%20docs%20and%20blog%20powered%20by%20Nuxt%20Content.)
+```bash
+git clone https://github.com/tu-usuario/saas-template.git
+```
 
-## Setup
+Entrar al proyecto:
 
-Make sure to install the dependencies:
+```bash
+cd saas-template
+```
+
+---
+
+## 2. Instalar dependencias
+
+Con PNPM:
 
 ```bash
 pnpm install
 ```
 
-## Development Server
+Con NPM:
 
-Start the development server on `http://localhost:3000`:
+```bash
+npm install
+```
+
+---
+
+# ▶️ Ejecutar en modo desarrollo
+
+Inicia el servidor:
 
 ```bash
 pnpm dev
 ```
 
-## Production
+o
 
-Build the application for production:
+```bash
+npm run dev
+```
+
+La aplicación estará disponible en:
+
+```
+http://localhost:3000
+```
+
+---
+
+# 📦 Compilar para producción
+
+Generar la versión optimizada:
 
 ```bash
 pnpm build
 ```
 
-Locally preview production build:
+o
+
+```bash
+npm run build
+```
+
+---
+
+# 👀 Vista previa de producción
+
+Para comprobar el funcionamiento antes del despliegue:
 
 ```bash
 pnpm preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+o
 
-## Renovate integration
+```bash
+npm run preview
+```
 
-Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.
+---
+
+# 🚀 Despliegue
+
+La aplicación puede desplegarse fácilmente en plataformas como:
+
+- Vercel
+- Netlify
+- Render
+- Railway
+- DigitalOcean
+- Servidores propios con Node.js
+
+Nuxt genera una aplicación optimizada lista para producción.
+
+---
+
+# 🎨 Componentes incluidos
+
+La plantilla incorpora múltiples páginas listas para utilizar:
+
+- Landing Page
+- Pricing
+- Blog
+- Documentación
+- Navegación responsiva
+- Footer
+- Componentes reutilizables
+- Diseño adaptable
+
+---
+
+# 📚 Documentación
+
+La documentación oficial de Nuxt proporciona información detallada sobre el framework y sus herramientas.
+
+Documentación oficial:
+
+https://nuxt.com/docs
+
+Nuxt UI:
+
+https://ui.nuxt.com
+
+---
+
+# 🔄 Renovate
+
+El proyecto es compatible con **Renovate**, permitiendo mantener automáticamente actualizadas las dependencias.
+
+Solo es necesario instalar la aplicación de Renovate en el repositorio de GitHub.
+
+---
+
+# 📱 Compatibilidad
+
+- Windows
+- Linux
+- macOS
+
+Navegadores compatibles:
+
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Safari
+
+---
+
+# 📈 Ventajas de esta plantilla
+
+- Desarrollo rápido.
+- Código limpio y organizado.
+- Arquitectura escalable.
+- Componentes reutilizables.
+- Excelente rendimiento.
+- SEO optimizado.
+- Fácil mantenimiento.
+- Preparada para producción.
+
+---
+
+# 👨‍💻 Autor
+
+Proyecto desarrollado utilizando la plantilla oficial de **Nuxt UI SaaS Template**, personalizable para cualquier aplicación SaaS moderna.
+
+---
+
+# 📄 Licencia
+
+Este proyecto puede utilizarse como base para aplicaciones personales o comerciales respetando la licencia correspondiente del proyecto original.
