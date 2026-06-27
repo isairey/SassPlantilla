@@ -36,7 +36,7 @@ Incluye una interfaz profesional con página de inicio, sección de precios, doc
 # 📁 Estructura del proyecto
 
 ```
-saas-template/
+SassPlantilla/
 │
 ├── app/
 ├── components/
