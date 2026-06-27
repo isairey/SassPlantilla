@@ -80,7 +80,7 @@ npm create nuxt@latest -- -t ui/saas
 O clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/saas-template.git
+git clone https://github.com/isairey/saas-template.git
 ```
 
 Entrar al proyecto:
